@@ -1,7 +1,0 @@
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\bin\Debug\CaterpillarControlSystem.exe.config
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\bin\Debug\CaterpillarControlSystem.exe
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\bin\Debug\CaterpillarControlSystem.pdb
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\obj\Debug\CaterpillarControlSystem.csproj.AssemblyReference.cache
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\obj\Debug\CaterpillarControlSystem.csproj.CoreCompileInputs.cache
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\obj\Debug\CaterpillarControlSystem.exe
-D:\Kithome\Projects\Mission\CaterpillarControlSystem\obj\Debug\CaterpillarControlSystem.pdb
