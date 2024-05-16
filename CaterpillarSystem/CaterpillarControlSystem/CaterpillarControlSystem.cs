@@ -9,6 +9,7 @@ public class CaterpillarControlSystem
     private Stack<(string, int)> undoneCommands = new Stack<(string, int)>();
     public List<(int X, int Y)> segments;
     private int maxSegments;
+
     private LogHelper logHelper = new LogHelper();
 
     public (int X, int Y) Head => segments.Count > 0 ? segments[0] : (0, 0);
@@ -57,105 +58,166 @@ public class CaterpillarControlSystem
    private void MoveUp(int steps)
     {
         Console.WriteLine("Moving up...");
-        for (int i = 0; i < steps; i++)
+        try
         {
-            Console.WriteLine($"Step {i + 1} of {steps}");
-            if (Head.Y > 0 && planet.GetSymbolAtPosition(Head.X, Head.Y - 1) != '#')
+            for (int i = 0; i < steps; i++)
             {
-                Console.WriteLine("Can move up.");
-                MoveHeadTo(Head.X, Head.Y - 1);
+                Console.WriteLine($"Step {i + 1} of {steps}");
+                if (Head.Y > 0 && planet.GetSymbolAtPosition(Head.X, Head.Y - 1) != '#')
+                {
+                    Console.WriteLine("Can move up.");
+                    MoveHeadTo(Head.X, Head.Y - 1);
+                }
+                else
+                {
+                    Console.WriteLine("Cannot move up.");
+                    logHelper.WriteToLogger("Cannot move up.");
+                }
             }
-            else
-            {
-                Console.WriteLine("Cannot move up.");
-            }
+            planet.PrintMap();
+            PrintCaterpillar();
+            HandleInteractions();
+            HandleBooster();
+            HandleObstacle();
+            HandleSpice();
+            DisplayRadarImage();
+        }catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.ToString());
         }
-        planet.PrintMap();
-        PrintCaterpillar();
-        HandleInteractions();
-        DisplayRadarImage();
     }
 
     private void MoveDown(int steps)
     {
         Console.WriteLine("Moving down...");
-        for (int i = 0; i < steps; i++)
+        logHelper.WriteToLogger("Moving down...");
+        try
         {
-            Console.WriteLine($"Step {i + 1} of {steps}");
-            if (Head.Y < planet.GetMap().GetLength(0) - 1 && planet.GetSymbolAtPosition(Head.X, Head.Y + 1) != '#')
+            for (int i = 0; i < steps; i++)
             {
-                Console.WriteLine("Can move down.");
-                MoveHeadTo(Head.X, Head.Y + 1);
+                Console.WriteLine($"Step {i + 1} of {steps}");
+                if (Head.Y < planet.GetMap().GetLength(0) - 1 && planet.GetSymbolAtPosition(Head.X, Head.Y + 1) != '#')
+                {
+                    Console.WriteLine("Can move down.");
+                    MoveHeadTo(Head.X, Head.Y + 1);
+                }
+                else
+                {
+                    Console.WriteLine("Cannot move down: obstacle or reached boundary.");
+                    logHelper.WriteToLogger("Cannot move down: obstacle or reached boundary.");
+
+                }
             }
-            else
-            {
-                Console.WriteLine("Cannot move down: obstacle or reached boundary.");
-            }
+            planet.PrintMap();
+            PrintCaterpillar();
+            HandleInteractions();
+            HandleBooster();
+            HandleObstacle();
+            HandleSpice();
+            DisplayRadarImage();
+
+        }catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.ToString());
         }
-        planet.PrintMap();
-        PrintCaterpillar();
-        HandleInteractions();
-        DisplayRadarImage();
+       
     }
 
     private void MoveLeft(int steps)
     {
         Console.WriteLine("Moving left...");
-        for (int i = 0; i < steps; i++)
+        logHelper.WriteToLogger("Moving left...");
+        try
         {
-            Console.WriteLine($"Step {i + 1} of {steps}");
-            if (Head.X > 0 && planet.GetSymbolAtPosition(Head.X - 1, Head.Y) != '#')
+            for (int i = 0; i < steps; i++)
             {
-                Console.WriteLine("Can move left.");
-                MoveHeadTo(Head.X - 1, Head.Y);
+                Console.WriteLine($"Step {i + 1} of {steps}");
+                if (Head.X > 0 && planet.GetSymbolAtPosition(Head.X - 1, Head.Y) != '#')
+                {
+                    Console.WriteLine("Can move left.");
+                    MoveHeadTo(Head.X - 1, Head.Y);
+                }
+                else
+                {
+                    Console.WriteLine("Cannot move left: obstacle or reached boundary.");
+                }
             }
-            else
-            {
-                Console.WriteLine("Cannot move left: obstacle or reached boundary.");
-            }
+            planet.PrintMap();
+            PrintCaterpillar();
+            HandleInteractions();
+            HandleBooster();
+            HandleObstacle();
+            HandleSpice();
+            DisplayRadarImage();
+        }catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.ToString());
         }
-        planet.PrintMap();
-        PrintCaterpillar();
-        HandleInteractions();
-        DisplayRadarImage();
+       
     }
 
     private void MoveRight(int steps)
     {
         Console.WriteLine("Moving right...");
-        for (int i = 0; i < steps; i++)
+        logHelper.WriteToLogger("Moving right...");
+        try
         {
-            Console.WriteLine($"Step {i + 1} of {steps}");
-            if (Head.X < planet.GetMap().GetLength(1) - 1 && planet.GetSymbolAtPosition(Head.X + 1, Head.Y) != '#')
+            for (int i = 0; i < steps; i++)
             {
-                Console.WriteLine("Can move right.");
-                MoveHeadTo(Head.X + 1, Head.Y);
+                Console.WriteLine($"Step {i + 1} of {steps}");
+                if (Head.X < planet.GetMap().GetLength(1) - 1 && planet.GetSymbolAtPosition(Head.X + 1, Head.Y) != '#')
+                {
+                    Console.WriteLine("Can move right.");
+                    MoveHeadTo(Head.X + 1, Head.Y);
+                }
+                else
+                {
+                    Console.WriteLine("Cannot move right: obstacle or reached boundary.");
+                }
             }
-            else
-            {
-                Console.WriteLine("Cannot move right: obstacle or reached boundary.");
-            }
+            planet.PrintMap();
+            PrintCaterpillar();
+            HandleInteractions();
+            HandleBooster();
+            HandleObstacle();
+            HandleSpice();
+            DisplayRadarImage();
+
+        }catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.ToString());
         }
-        planet.PrintMap();
-        PrintCaterpillar();
-        HandleInteractions();
-        DisplayRadarImage();
+       
     }
 
 
 
     private void MoveHeadTo(int newX, int newY)
     {
-        if (!IsValidPosition(newX, newY)) return;
+        Console.WriteLine($"Moving head from {newX} to {newY}");
+        logHelper.WriteToLogger($"Moving head from { newX} to { newY}");
 
-        var tail = Tail;
-        segments.Insert(0, (newX, newY));
-        segments.RemoveAt(segments.Count - 1);
-        planet.SetSymbolAtPosition(tail.X, tail.Y, '*');
-        planet.SetSymbolAtPosition(newX, newY, 'H');
-        planet.SetSymbolAtPosition(segments[segments.Count - 1].X, segments[segments.Count - 1].Y, 'T');
-        HandleInteractions();
-        DisplayRadarImage();
+        try
+        {
+            if (!IsValidPosition(newX, newY)) return;
+
+            var tail = Tail;
+            segments.Insert(0, (newX, newY));
+            segments.RemoveAt(segments.Count - 1);
+            planet.SetSymbolAtPosition(tail.X, tail.Y, '*');
+            planet.SetSymbolAtPosition(newX, newY, 'H');
+            planet.SetSymbolAtPosition(segments[segments.Count - 1].X, segments[segments.Count - 1].Y, 'T');
+            HandleInteractions();
+            DisplayRadarImage();
+        }catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.ToString());
+        }
     }
 
     private bool IsValidPosition(int x, int y)
@@ -165,15 +227,27 @@ public class CaterpillarControlSystem
 
     public void PrintCaterpillar()
     {
-        foreach (var segment in segments)
+        Console.WriteLine("\n\nPrinting Caterpillar\n\n");
+        logHelper.WriteToLogger("Printing Caterpillar");
+        try
         {
-            Console.Write($"The Caterpillar({segment.X}, {segment.Y}) ");
+            foreach (var segment in segments)
+            {
+                Console.Write($"The Caterpillar({segment.X}, {segment.Y}) ");
+            }
+        }catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.Message.ToString());
         }
         Console.WriteLine();
     }
 
     public void HandleInteractions()
     {
+        Console.WriteLine("\n\nHandling Interactions\n\n");
+        logHelper.WriteToLogger("Handling Interactions");
+
         char symbol = planet.GetSymbolAtPosition(Head.X, Head.Y);
 
         switch (symbol)
@@ -194,23 +268,48 @@ public class CaterpillarControlSystem
 
 
     public void HandleSpice()
+        
     {
-        // Ingest spice and remove it from the planet
-        planet.SetSymbolAtPosition(Head.X, Head.Y, '*');
+        Console.WriteLine("\n\nHandling Spice $\n\n");
+        logHelper.WriteToLogger("Handling Spice $");
+        try
+        {
+            // Ingest spice and remove it from the planet
+            planet.SetSymbolAtPosition(Head.X, Head.Y, '*');
+        }catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.Message.ToString());
+
+        }
     }
 
     public void HandleBooster()
     {
-        if (segments.Count < maxSegments)
+
+        Console.WriteLine("\n\nHandling Booster B\n\n");
+        logHelper.WriteToLogger("Handling Booster B");
+        try
         {
-            segments.Add(Tail); // Grow the caterpillar by adding a new segment
+            if (segments.Count < maxSegments)
+            {
+                segments.Add(Tail); // Grow the caterpillar by adding a new segment
+            }
+            // Remove the booster from the planet
+            planet.SetSymbolAtPosition(Head.X, Head.Y, '*');
         }
-        // Remove the booster from the planet
-        planet.SetSymbolAtPosition(Head.X, Head.Y, '*');
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            logHelper.WriteToLogger(ex.Message.ToString());
+        }
     }
 
     public void HandleObstacle()
     {
+
+        Console.WriteLine("\n\nHandling Obstacle #\n\n");
+        logHelper.WriteToLogger("Handling Obstacle #");
         // If any segment of the caterpillar hits an obstacle, disintegrate all segments
         foreach (var segment in segments)
         {
@@ -221,9 +320,12 @@ public class CaterpillarControlSystem
 
     public void ShrinkCaterpillar()
     {
+        Console.WriteLine("\n\nShrinking Caterpillar\n\n");
+        logHelper.WriteToLogger("Shrinking Caterpillar");
         if (segments.Count > 2)
         {
-            segments.RemoveAt(segments.Count - 1); // Remove the last segment
+            // Remove the last segment
+            segments.RemoveAt(segments.Count - 1); 
         }
     }
 

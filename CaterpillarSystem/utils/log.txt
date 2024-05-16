@@ -1,6 +1,75 @@
-LOGGING  DATA......2024-05-16 00:47:23:  for [{"Item1":"U","Item2":2}]
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 19
 
 
-LOGGING  DATA......2024-05-16 00:53:19:  for [{"Item1":"L","Item2":1000}]
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 18
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 17
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 16
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 15
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 14
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 13
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 12
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 11
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 10
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:24:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 00:15:25:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 00:15:25:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 00:15:25:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 00:15:25:  for Handling Spice $
 
 

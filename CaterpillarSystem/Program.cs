@@ -51,8 +51,6 @@ class Program
             string direction = EnterDirection();
             caterpillar.MoveCaterpillar(direction, steps);
 
-            Console.WriteLine("The stack data is:::" + steps);
-
         }
         else
         {
@@ -67,8 +65,6 @@ class Program
     {
 
         Console.WriteLine("Enter the number of steps to move the caterpillar:\n");
-
-        Console.Write("Enter the number of steps: ");
         string stepsString = Console.ReadLine();
         return stepsString;
     }

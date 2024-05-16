@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CaterpillarSystemTests
-build_property.ProjectDir = D:\Kithome\Projects\Mission\CaterpillarSystemTests\
+build_property.ProjectDir = D:\Kithome\Coding hub\CaterpillarSystem\CaterpillarSystemTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
