@@ -1,0 +1,6 @@
+LOGGING  DATA......2024-05-16 00:47:23:  for [{"Item1":"U","Item2":2}]
+
+
+LOGGING  DATA......2024-05-16 00:53:19:  for [{"Item1":"L","Item2":1000}]
+
+
