@@ -21,17 +21,17 @@ A control system for navigating and managing a caterpillar on a distant planet. 
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/CaterpillarControlSystem.git](https://github.com/JosephKithome/CaterpillarSystem.git)
+    git clone [(https://github.com/JosephKithome/CaterpillarSystem.git)]
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd CaterpillarControlSystem
+    cd CaterpillarSystem
     ```
 
 3. Open the solution in Visual Studio or your preferred IDE:
     ```bash
-    dotnet sln open CaterpillarControlSystem.sln
+    dotnet sln open CaterpillarSystem.sln
     ```
 
 ### Usage
@@ -43,14 +43,14 @@ A control system for navigating and managing a caterpillar on a distant planet. 
 
 2. Run the project:
     ```bash
-    dotnet run --project src/CaterpillarControlSystem
+    dotnet run --project src/CaterpillarSystem
     ```
 
 ### Running Tests
 
 1. Navigate to the tests directory:
     ```bash
-    cd src/CaterpillarControlSystem.Tests
+    cd CaterpillarSystemTests
     ```
 
 2. Run the tests:
