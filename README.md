@@ -21,7 +21,7 @@ A control system for navigating and managing a caterpillar on a distant planet. 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/CaterpillarControlSystem.git
+    git clone [https://github.com/your-username/CaterpillarControlSystem.git](https://github.com/JosephKithome/CaterpillarSystem.git)
     ```
 
 2. Navigate to the project directory:
