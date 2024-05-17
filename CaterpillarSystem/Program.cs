@@ -49,7 +49,21 @@ class Program
         if (int.TryParse(stepsString, out int steps))
         {
             string direction = EnterDirection();
-            caterpillar.MoveCaterpillar(direction, steps);
+            if(direction.Contains("U") || direction.Contains("D") || direction.Contains("L") || direction.Contains("R")){
+                caterpillar.MoveCaterpillar(direction, steps);
+            }
+            else
+            {
+                string d = EnterDirection();
+                string s = EnterSteps();
+                if (int.TryParse(stepsString, out int s2))
+                {
+                    caterpillar.MoveCaterpillar(d, s2);
+                }
+                    
+
+            }
+            
 
         }
         else

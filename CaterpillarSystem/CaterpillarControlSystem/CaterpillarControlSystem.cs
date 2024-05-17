@@ -80,6 +80,7 @@ public class CaterpillarControlSystem
             HandleBooster();
             HandleObstacle();
             HandleSpice();
+            ShrinkCaterpillar();
             DisplayRadarImage();
         }catch (Exception ex)
         {
@@ -115,6 +116,7 @@ public class CaterpillarControlSystem
             HandleBooster();
             HandleObstacle();
             HandleSpice();
+            ShrinkCaterpillar();
             DisplayRadarImage();
 
         }catch(Exception ex)
@@ -150,6 +152,7 @@ public class CaterpillarControlSystem
             HandleBooster();
             HandleObstacle();
             HandleSpice();
+            ShrinkCaterpillar();
             DisplayRadarImage();
         }catch (Exception ex)
         {
@@ -184,6 +187,7 @@ public class CaterpillarControlSystem
             HandleBooster();
             HandleObstacle();
             HandleSpice();
+            ShrinkCaterpillar();
             DisplayRadarImage();
 
         }catch(Exception ex)
@@ -331,6 +335,8 @@ public class CaterpillarControlSystem
 
     public void Undo()
     {
+        Console.WriteLine("\n\nUndoing...\n\n");
+        logHelper.WriteToLogger("Undoing commands");
         if (commandHistory.Count > 0)
         {
             var lastCommand = commandHistory.Pop();

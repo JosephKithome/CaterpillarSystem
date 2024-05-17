@@ -1,75 +1,486 @@
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 19
+LOGGING  DATA......2024-05-17 08:39:50:  for Moving head from 2 to 19
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 18
+LOGGING  DATA......2024-05-17 08:39:50:  for Moving head from 2 to 18
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 17
+LOGGING  DATA......2024-05-17 08:39:50:  for Printing Caterpillar
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 16
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Booster B
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Obstacle #
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 15
+LOGGING  DATA......2024-05-17 08:39:50:  for Handling Spice $
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:43:45:  for Moving left...
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 14
+LOGGING  DATA......2024-05-17 08:43:45:  for Printing Caterpillar
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:43:45:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 13
+LOGGING  DATA......2024-05-17 08:43:45:  for Handling Booster B
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:43:45:  for Handling Obstacle #
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 12
+LOGGING  DATA......2024-05-17 08:43:45:  for Handling Spice $
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving right...
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 11
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving head from 3 to 20
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:44:44:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Moving head from 2 to 10
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving head from 4 to 20
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:44:44:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:24:  for Printing Caterpillar
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving head from 5 to 20
 
 
-LOGGING  DATA......2024-05-17 00:15:25:  for Handling Interactions
+LOGGING  DATA......2024-05-17 08:44:44:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:25:  for Handling Booster B
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving head from 6 to 20
 
 
-LOGGING  DATA......2024-05-17 00:15:25:  for Handling Obstacle #
+LOGGING  DATA......2024-05-17 08:44:44:  for Handling Interactions
 
 
-LOGGING  DATA......2024-05-17 00:15:25:  for Handling Spice $
+LOGGING  DATA......2024-05-17 08:44:44:  for Moving head from 7 to 20
+
+
+LOGGING  DATA......2024-05-17 08:44:44:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:44:45:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 08:44:45:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:44:45:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:44:45:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:44:45:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Moving down...
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Moving head from 2 to 21
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Moving head from 2 to 22
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:46:57:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Moving right...
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Moving head from 3 to 20
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Moving head from 4 to 20
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Moving head from 5 to 20
+
+
+LOGGING  DATA......2024-05-17 08:48:10:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:48:11:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:48:11:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:48:11:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:48:11:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Moving head from 5 to 4
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:49:00:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving right...
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 3 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 4 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 5 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 6 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 7 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 8 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 9 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 10 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Moving head from 11 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:38:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 12 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 13 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 14 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 15 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 16 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 17 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 18 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 19 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 20 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 21 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Moving head from 22 to 20
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:51:39:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 08:53:19:  for Moving head from 2 to 19
+
+
+LOGGING  DATA......2024-05-17 08:53:19:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 18
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 17
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 16
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 15
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 14
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 13
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 12
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 11
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 10
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 9
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Moving head from 2 to 8
+
+
+LOGGING  DATA......2024-05-17 08:53:20:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 7
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 6
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 5
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 4
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 3
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 2
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 1
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Moving head from 2 to 0
+
+
+LOGGING  DATA......2024-05-17 08:53:21:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 08:53:22:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 08:53:22:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 08:53:22:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 08:53:22:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Moving right...
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Moving head from 3 to 20
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Moving head from 4 to 20
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Moving head from 5 to 20
+
+
+LOGGING  DATA......2024-05-17 22:35:28:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Printing Caterpillar
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Handling Interactions
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Handling Booster B
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Handling Obstacle #
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Handling Spice $
+
+
+LOGGING  DATA......2024-05-17 22:35:29:  for Shrinking Caterpillar
 
 
