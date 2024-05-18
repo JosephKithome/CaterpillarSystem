@@ -98,23 +98,26 @@ namespace Tests
             // No easy way to test console output, so no direct assertion here
             caterpillar.DisplayRadarImage();
         }
-       
 
-        [TestMethod()]
+
+        [TestMethod]
         public void ShrinkCaterpillar_Shrink_Success()
         {
             // Arrange
             char[,] map = new char[10, 10]; // Assuming map is defined as a 2D char array
             Planet planet = new Planet(map);
             CaterpillarControlSystem caterpillar = new CaterpillarControlSystem(planet, 5, 5);
-            caterpillar.MoveCaterpillar("U", 3);
+
+            // Move the caterpillar to create multiple segments
+            caterpillar.MoveCaterpillar("U", 3); // This should create 4 segments
 
             // Act
             caterpillar.ShrinkCaterpillar();
 
             // Assert
-            Assert.AreEqual(2, caterpillar.segments.Count, "Caterpillar should have shrunk by 1 segment.");
+            Assert.AreEqual(3, caterpillar.segments.Count, "Caterpillar should have shrunk by 1 segment.");
         }
+
         [TestMethod()]
         public void PrintCaterpillarTest()
         {
@@ -182,23 +185,32 @@ namespace Tests
             Assert.AreEqual(0, caterpillar.segments.Count, "Caterpillar should have disintegrated.");
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void ShrinkCaterpillarTest()
         {
             // Arrange
             char[,] map = new char[10, 10]; // Assuming map is defined as a 2D char array
             Planet planet = new Planet(map);
             CaterpillarControlSystem caterpillar = new CaterpillarControlSystem(planet, 5, 5);
-            caterpillar.MoveCaterpillar("U", 3);
+
+            // Initial segments should contain the starting position
+            Assert.AreEqual(1, caterpillar.segments.Count, "Initial segment count should be 1.");
+
+            // Move the caterpillar to create segments
+            caterpillar.MoveCaterpillar("U", 3); // This should create 4 segments
+
+            // Assert the segments count after moving
+            Assert.AreEqual(4, caterpillar.segments.Count, "Segment count after moving up 3 steps should be 4.");
 
             // Act
             caterpillar.ShrinkCaterpillar();
 
             // Assert
-            Assert.AreEqual(2, caterpillar.segments.Count, "Caterpillar should have shrunk by 1 segment.");
+            Assert.AreEqual(3, caterpillar.segments.Count, "Caterpillar should have shrunk by 1 segment.");
         }
 
-      
+
+
 
         [TestMethod()]
         public void RedoTest()

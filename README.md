@@ -127,3 +127,8 @@ Proper error handling mechanisms are implemented to ensure smooth operation and 
 
 Unit tests are provided for each class to ensure the correctness of the functionalities.
 
+
+## Output 
+![Alt text](/output.PNG?raw=true "Sample Output")
+
+
