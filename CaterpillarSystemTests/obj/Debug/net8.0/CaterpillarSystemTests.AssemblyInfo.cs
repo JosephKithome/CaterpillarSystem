@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaterpillarSystemTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96e51394ec3d4dc37bc1fa456a934e8d2f5176e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2a221c575f2e8793893abcf76823784b8d8cdfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaterpillarSystemTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaterpillarSystemTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
