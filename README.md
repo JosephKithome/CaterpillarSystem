@@ -129,6 +129,7 @@ Unit tests are provided for each class to ensure the correctness of the function
 
 
 ## Output 
-![Alt text](/output.PNG?raw=true "Sample Output")
+![Sample Output](output.PNG "Sample Output")
+
 
 
