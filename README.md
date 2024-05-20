@@ -129,7 +129,7 @@ Unit tests are provided for each class to ensure the correctness of the function
 
 
 ## Output 
-![Sample Output](output.PNG "Sample Output") ![Sample Test cases](tests.PNG "Sample Test Cases")
+![Sample Output](output.PNG "Sample Output")
 
 ## Sample Test Cases 
 ![Sample Test cases](tests.PNG "Sample Test Cases")
