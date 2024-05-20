@@ -43,7 +43,7 @@ A control system for navigating and managing a caterpillar on a distant planet. 
 
 2. Run the project:
     ```bash
-    dotnet run --project src/CaterpillarSystem
+    dotnet run --project CaterpillarSystem
     ```
 
 ### Running Tests
@@ -129,7 +129,7 @@ Unit tests are provided for each class to ensure the correctness of the function
 
 
 ## Output 
-![Sample Output](output.PNG "Sample Output")
+![Sample Output](output.PNG "Sample Output") ![Sample Test cases](tests.PNG "Sample Test Cases")
 
 ## Sample Test Cases 
 ![Sample Test cases](tests.PNG "Sample Test Cases")
